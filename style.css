@@ -156,15 +156,23 @@ h6{ font-size: 16px;}
     grid-area: left-column;
     padding-top: 50px;
     padding-bottom: 50px;
+
 }
 
 #profile_pic{
     display: block;
     margin: 0 auto;
-    height: 200px;
+    height: 250px;
     width: 200px;
     object-fit: cover;
     border: 2px solid var(--borderColor);
+    border-radius: 15px;
+    /* position: relative;
+    top: 110px; */
+    /* background-attachment: fixed;*/
+    /* background-position-y: 20px;  */
+    /* background-position: right 100px bottom 50px ; */
+    
 }
 
 .theme-options-wrapper{
@@ -290,9 +298,14 @@ h6{ font-size: 16px;}
     text-align: center;
 }
 
+.social-links h6{
+    margin: 0;
+    padding-top: 20px;
+}
 
 #social_img{
     width: 100%;
+    border-radius: 5%;
 }
 
 /* ****************** */
@@ -385,6 +398,7 @@ h6{ font-size: 16px;}
     color: #fff;
     background-color: var(--buttonColor);
     border: none;
+    cursor: pointer;
 }
 
 
@@ -402,7 +416,12 @@ h6{ font-size: 16px;}
     margin-top: 10px;
     padding: 10px;
     font-weight: bold;
+    cursor: pointer;
 }
+/* .social_img{
+    border-radius: 50%;
+} */
+
 
 
 @media screen and (max-width : 1200px){
